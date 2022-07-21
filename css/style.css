@@ -96,6 +96,11 @@ ul{
     text-decoration: none;
     display: block;
     border-radius: 10px;
+    transition: .3s;
+}
+.blog-list ul li a:hover{
+    background-color: #DD0000;
+    color: white;
 }
 .blog-list ul li a.active{
     color: #fff;
